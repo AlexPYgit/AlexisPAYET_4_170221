@@ -1,0 +1,16 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /css/
+
+Disallow: /fonts/
+
+Disallow: /img/
+
+Disallow: /includes/
+
+Disallow: /js/
+
+Sitemap : https://alexpygit.github.io/AlexisPAYET_4_170221/sitemap.xml
+

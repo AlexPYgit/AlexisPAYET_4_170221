@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .5);
 }
 
 .d-bloc button:hover {
@@ -348,7 +348,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width: 26px;
+    width: 40px;
 }
 
 .nav-invert .navbar .nav {
@@ -438,6 +438,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    filter: brightness(1);
+    font-weight: bold;
 }
 
 .mg-lg {
@@ -740,7 +742,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 34px;
 }
 
 .portfolio-row {
@@ -767,7 +769,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #0636A8;
 }
 
 .bgc-atomic-tangerine {
@@ -822,7 +824,8 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {

@@ -445,6 +445,10 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    filter: brightness(1);
+    font-size: 1.1em;
+    text-align: justify;
+    text-align: center;
 }
 
 .btn {
@@ -662,6 +666,8 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    filter: brightness(1);
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -773,7 +779,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #3e7e0ab2;
 }
 
 .tc-white {

@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .5);
 }
 
 .d-bloc button:hover {
@@ -348,7 +348,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width: 26px;
+    width: 40px;
 }
 
 .nav-invert .navbar .nav {
@@ -438,11 +438,17 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    filter: brightness(1);
+    font-weight: bold;
 }
 
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    filter: brightness(1);
+    font-size: 1.1em;
+    text-align: justify;
+    text-align: center;
 }
 
 .btn {
@@ -474,7 +480,7 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
-
+.bg-presentation
 .icon-md {
     font-size: 30px!important;
 }
@@ -518,6 +524,7 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
+    background-color: red;
     transition: all .3s ease-in-out;
 }
 
@@ -660,6 +667,8 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    filter: brightness(1);
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -740,7 +749,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 34px;
 }
 
 .portfolio-row {
@@ -767,11 +776,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #0636A8;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #3e7e0ab2;
 }
 
 .tc-white {
@@ -822,7 +831,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {

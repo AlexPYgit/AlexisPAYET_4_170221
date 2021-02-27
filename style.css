@@ -662,7 +662,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 92%;
 }
 
 .hero-bloc-text {
@@ -686,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -780,7 +780,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #3e7e0ab2;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -846,6 +846,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .container{
+        max-width: 92%;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -872,6 +875,7 @@ h4 {
 @media (max-width: 991px) {
     .container {
         width: 100%;
+
     }
     .b-parallax {
         background-attachment: scroll;

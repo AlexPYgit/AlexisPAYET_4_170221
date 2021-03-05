@@ -3200,7 +3200,7 @@ input[type=search] {
     -webkit-appearance: none
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-pixel-ratio:0) {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
@@ -4372,15 +4372,6 @@ tbody.collapse.in {
     color: #777
 }
 
-.dropdown-menu>.disabled>a:focus,
-.dropdown-menu>.disabled>a:hover {
-    text-decoration: none;
-    cursor: not-allowed;
-    background-color: transparent;
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
-}
-
 .open>.dropdown-menu {
     display: block
 }
@@ -5129,7 +5120,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px

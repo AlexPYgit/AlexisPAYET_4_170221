@@ -890,10 +890,11 @@ h4 {
 
     
         .bloc {
-            padding: 
-            env(safe-area-inset-left, 12px);
-            env(safe-area-inset-right, 12px);
+            padding-left: 12px;
+            padding-right: 12px;
         }
+    
+        
     
     
     .bloc-group,

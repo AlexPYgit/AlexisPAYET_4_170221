@@ -363,6 +363,14 @@ a:hover {
     z-index: 2;
 }
 
+.text-contrast-white{
+    color: #FFF;
+}
+
+.text-weight{
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -659,7 +667,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
